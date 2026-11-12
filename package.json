@@ -1,0 +1,12 @@
+{
+  "name": "prepublic",
+  "version": "0.1.0",
+  "description": "Check a git repository's whole history before you make it public: secrets, sensitive files, commit emails, home paths, large files.",
+  "type": "module",
+  "bin": { "prepublic": "bin/prepublic.js" },
+  "files": ["bin", "src"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test" },
+  "keywords": ["git", "github", "open-source", "secrets", "privacy", "audit", "preflight"],
+  "license": "MIT"
+}
